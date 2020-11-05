@@ -10,5 +10,5 @@ import org.springframework.web.multipart.MultipartFile;
  */
 public interface UploadFile {
 
-    String upload(String storeCode, MultipartFile file, String extension);
+    String upload(MultipartFile file, String extension);
 }
